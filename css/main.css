@@ -1,0 +1,80 @@
+.fonte-especial {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.fonte-especial-logo {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 0 25%;
+    height: 400px;
+}
+
+.suspiromenu {
+    margin-top: 6rem;
+}
+
+.suspiromenuprodutos {
+    margin-top: 10rem;
+}
+
+
+.card-posicao-img {
+    object-fit: cover;
+    right: 200px;
+}
+
+  
+.card-largura {
+    max-width: 18rem;
+}
+
+#bt-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+
+#bt-cor-especial:hover {
+    background-color: green;
+    transition: 1s;
+}
+#text-navbar {
+    color: black;
+    font-size: 5rem;
+}
+
+
+
+.direitos {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.direitos:hover {
+    color: red;
+    transition: 2s;
+}
+
+.texto-rodape {
+    font-size: 20px;
+}
+
+#body-fundo {
+    background-color: #2cbdcb;
+}
+
+#color-fundo {
+    background-color:#2cbdcb;
+}
+
+.logo {
+    width: 12rem;
+    position: relative;
+}
