@@ -56,11 +56,11 @@
 
 .direitos {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(20, 20, 18);
 }
 
 .direitos:hover {
-    color: red;
+    color: rgb(251, 251, 251);
     transition: 2s;
 }
 
@@ -91,7 +91,11 @@
     margin: 1rem;;
 }
 
-#suspiro-carrosel {
-    display: block;
-    margin-top: 10%;
+#suspiro {
+    position: relative;
+    margin-top: 15%;
+}
+
+.marca-logo-quemsomos {
+    width: 13rem;
 }
