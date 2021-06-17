@@ -41,7 +41,7 @@
 
     <section class="titulo-principal text-center">
       <h1 class="fonte-especial">######</h1>
-      <p class="pb-3">######</p>
+      <p class="pb-5">######</p>
     </section>
   
     <section class="mais-vendidos pb-4 text-center fonte-especial container-fluid">
@@ -71,59 +71,61 @@
  
   </main>
 
-  <footer>
-    <ul class="container social-mídia text-center">
+  <div class="rodape">
+    <ul style="padding-top: 1rem;" class="container social-mídia text-center">
       <li><a href=""><img class="img-social" src="img/icons/twitter.svg"></a></li>
       <li><a href=""><img class="img-social" src="img/icons/facebook.svg"></a></li>
       <li><a href=""><img class="img-social" src="img/icons/instagram.svg"></a></li>
       <li><a href=""><img class="img-social" src="img/icons/linkedin.svg"></a></li>
       <li><a href=""><img class="img-social" src="img/icons/github.svg"></a></li>
     </ul>
+  <footer class="rodape">
     <h5 class="text-center">&copy;opyright</h5>
     <p class="text-center texto-rodape fonte-especial">Todos os direitos reservados<a class="direitos" href="mailto:brenoepitacio@gmail.com"> Breno Epitácio</a></p>
   </footer>
+  </div>
 
-  <!-- Modal -->
-<div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+<!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
 
-        <form action="https://formspree.io/f/xoqprzbn" method="POST">
+          <form action="https://formspree.io/f/xoqprzbn" method="POST">
 
-          <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">Nome completo</label>
-          <input class="form-control" id="name" name="name" placeholder="Ana maria" type="text" required>
-          </div>
+            <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome completo</label>
+            <input class="form-control" id="name" name="name" placeholder="Ana maria" type="text" required>
+            </div>
 
-          <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
-          <input class="form-control" id="email" name="email" placeholder="exemplo@email.com" type="email" required>
-          </div>
-          
-          <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentário</label>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comentário" rows="5"></textarea><br>
-          </div>
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
+            <input class="form-control" id="email" name="email" placeholder="exemplo@email.com" type="email" required>
+            </div>
+            
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentário</label>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comentário" rows="5"></textarea><br>
+            </div>
 
-          <button class="btn btn-default pull-right btn-primary" type="submit">Enviar</button>
+            <button class="btn btn-default pull-right btn-primary" type="submit">Enviar</button>
 
-        </form>
+          </form>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <a href="https://api.whatsapp.com/send?phone=5581992626097&text=" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
   z-index:1000;" target="_blank">
   <i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>  

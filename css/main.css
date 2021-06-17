@@ -73,7 +73,7 @@
 }
 
 #color-fundo {
-    background-color:#2cbdcb;
+    background-color:#EE875E;
 }
 
 .logo {
@@ -110,4 +110,10 @@
 
 .gatobranco {
     max-width: 2px;
+}
+
+.rodape {
+    width: auto;
+    height: 100px;
+    background-color: #EBD041;
 }
