@@ -47,7 +47,7 @@
 }
 .text-navbar {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'Sansita Swashed', cursive;
     
 }
@@ -116,4 +116,8 @@
     width: auto;
     height: 100px;
     background-color: #EBD041;
+}
+
+.font-preço {
+    font-size: 24px;
 }
